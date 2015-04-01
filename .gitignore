@@ -3,6 +3,17 @@
 /bin/
 target/
 output/
+
+# Created by https://www.gitignore.io
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
  
 # OS Files #
 .DS_Store
