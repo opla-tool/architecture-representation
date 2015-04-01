@@ -17,7 +17,6 @@
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
-				<checksumPolicy>fail</checksumPolicy>
 			</releases>
 			<id>br.ufpr.dinf.gres.opla-tool</id>
 			<name>br.ufpr.dinf.gres.opla-tool.release</name>
