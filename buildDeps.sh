@@ -10,6 +10,4 @@ mvn install:install-file -Dfile=libs/libsArquitetura/org.eclipse.uml2.common_1.7
 
 mvn install:install-file -Dfile=libs/libsArquitetura/org.eclipse.uml2.uml_4.0.0.v20120604-0919.jar -DgroupId=org.uml2.uml24 -DartifactId=uml2-uml24 -Dversion=4.0.0 -Dpackaging=jar
 
-curl -O https://dl.dropboxusercontent.com/u/6730822/bins/loglog-0.0.1-SNAPSHOT.jar
-mvn install:install-file -Dfile=loglog-0.0.1-SNAPSHOT.jar -DgroupId=opla.logs -DartifactId=loglog -Dversion=0.0.1 -Dpackaging=jar
-rm loglog-0.0.1-SNAPSHOT.jar
+mvn install:install-file -Dfile=libs/libsArquitetura/loglog-0.0.1.jar -DgroupId=br.ufpr.dinf.gres -DartifactId=loglog -Dversion=0.0.1 -Dpackaging=jar
